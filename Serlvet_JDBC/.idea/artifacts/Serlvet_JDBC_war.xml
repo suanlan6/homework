@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Serlvet_JDBC:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>Serlvet_JDBC</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="Serlvet_JDBC-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Serlvet_JDBC:war exploded" />
+    </root>
+  </artifact>
+</component>
